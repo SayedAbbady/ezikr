@@ -1,0 +1,91 @@
+.header-top-area {
+  padding: 0px 0 7px;
+}
+.logo img {
+  width: 140px;
+}
+.mainmenu {
+  margin-top:0px;
+}
+
+@media (max-width: 767.98px) {
+  
+  .mainmenu {
+    margin-top:10px;
+
+    /* margin-top: -11px; */
+  }
+}
+
+.about-text h2 {
+  font-size: 27px;
+}
+
+.div-image-custom{
+  overflow: hidden;
+  height: 452px;
+}
+.why-image{
+
+  min-height:452px
+}
+.why-image img{
+  height: 100%;
+}
+.about-icon span {
+ color:#497cbf
+}
+.footer-social-link ul li a {
+  border-radius: 50%;
+}
+
+.iti__flag {
+    background-image: url("https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/img/flags.png");
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    .iti__flag {
+        background-image: url("https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/img/flags@2x.png");
+    }
+}
+.iti {
+  width: 100%;
+}
+
+.pricing-table:hover{
+  color:#fff!important
+}
+
+.single-blog {
+  height: 460px;
+}
+
+.single-blog .blog-description p {
+    margin: 0;
+    line-height: 20px !important;
+}
+.meta-block-container {
+  height: 230px;
+  overflow: hidden;
+  display: block;
+}
+
+.wahtsBtn{
+  position: fixed;
+  left: 30px;
+  bottom: 30px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  z-index: 15000;
+  overflow: hidden;
+}
+.menu-bg .logo {
+    padding-top: 14px;
+}
+
+.single-testimonial img {
+  width: 120px;
+  height: 120px;
+}
